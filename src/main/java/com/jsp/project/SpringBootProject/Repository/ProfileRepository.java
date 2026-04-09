@@ -1,0 +1,8 @@
+package com.jsp.project.SpringBootProject.Repository;
+
+import com.jsp.project.SpringBootProject.Entity.Author;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ProfileRepository extends JpaRepository<Author,Integer> {
+
+}
